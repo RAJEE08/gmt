@@ -1,0 +1,136 @@
+/* Full Page Container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #f0f0f0, #8497f9);
+  }
+  
+  /* Box to Hold Left and Right Sections */
+  .login-box {
+    display: flex;
+    width: 1000px;
+    height: 600px;
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  /* Left Section - Image */
+  .login-left {
+    width: 50%;
+    height: 100%;
+    border-radius: 100px;
+  }
+  
+  .login-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Right Section - Login Form */
+  .login-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    background: white;
+  }
+  
+  .login-logo img {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .login-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .login-subtitle {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 20px;
+  }
+  
+  /* Email Input Field */
+  .login-input {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  
+  .login-input label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .login-input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  /* Error Styles */
+.error-input {
+    border: 2px solid rgb(255, 0, 0) !important;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  
+  /* Login Button */
+  .login-button {
+    width: 100%;
+    padding: 12px;
+    background: #2d5eff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .login-button:hover {
+    background: #1c3cc9;
+  }
+  
+
+  /* Loading Screen */
+.loading-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: white;
+  }
+  
+  /* System Compatibility Check */
+  .signup {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #2d5eff;
+    cursor: pointer;
+  }
+  
+  .signup:hover {
+    text-decoration: underline;
+  }
+  
