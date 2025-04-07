@@ -86,11 +86,6 @@ const Signup = () => {
                 onChange={() => setShowPassword(!showPassword)}
               />
               <label> Show Password</label>
-            </div>
-            <a href="/forgot-password" className="forgot-password">
-              Forgot Password?
-            </a>
-          </div>
 
           {/* Signup Button */}
           <button className="signup-button" onClick={handleSignupClick}>
